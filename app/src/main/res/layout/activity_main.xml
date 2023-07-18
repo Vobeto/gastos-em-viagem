@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Distancia"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Distância"
+        android:inputType="numberDecimal"
+         />
+
+    <TextView
+        android:id="@+id/TotalKm"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130dp"
+        android:text="Total em quilometros"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Preco"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Preço"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/PreçoporLitro"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="148dp"
+        android:text="Preço por Litro"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Autonomia"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Autonomia"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/KmporLitro"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="155dp"
+        android:text="KM por Litro"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Gasto"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="35dp"
+        android:text="SEU GASTO SERÁ DE: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Valor"
+        android:layout_width="200sp"
+        android:text="R$ 0"
+        android:textSize="38sp"
+        android:layout_marginLeft="155sp"
+        android:layout_height="50sp" />
+
+    <Button
+        android:id="@+id/Calcular"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="CALCULAR"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="105dp"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="20sp" />
+
+</LinearLayout>
